@@ -27,7 +27,7 @@
       <h1 class="mt-3 text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl md:text-6xl">
        {{ site.title | "The issue tracking tool <wbr/>you'll enjoy using" }}
       </h1>
-      <p class="mx-auto mt-3 max-w-md text-base text-zinc-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">{{ site.title | "Linear helps streamline software projects, sprints, tasks, and bug tracking. It's built for high-performance teams." }}</p>
+      <p class="mx-auto mt-3 max-w-md text-base text-zinc-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">{{ site.description | "Linear helps streamline software projects, sprints, tasks, and bug tracking. It's built for high-performance teams." }}</p>
       <form action="https://api.producthunt.com/widgets/upcoming/v1/upcoming/waitlist-pages/forms" class="mt-5 mx-auto max-w-xl"  method="post" id="ph-email-form" name="ph-email-form" target="_blank">
         <div class="sm:flex">
           <div class="min-w-0 flex-1">
@@ -35,7 +35,7 @@
             <input name="email" id="ph-email" type="email" required placeholder="Enter your email" class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900">
           </div>
           <div class="mt-3 sm:mt-0 sm:ml-3">
-            <button type="submit" value="Subscribe" name="subscribe" id="ph-subscribe-button" class="block w-full rounded-md bg-theme-600 py-3 px-4 font-medium text-white shadow hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900">Get Free API Key</button>
+            <button type="submit" value="Subscribe" name="subscribe" id="ph-subscribe-button" class="block w-full rounded-md bg-theme-600 py-3 px-4 font-medium text-white shadow hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900">{{ site.callToAction | "Get Free API Key" }}</button>
           </div>
         </div>
       </form>
