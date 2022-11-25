@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            theme: tailwind.colors.indigo,
           }
         }
       }
@@ -17,7 +17,7 @@
   </script>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline text-clifford">
+  <h1 class="text-3xl font-bold underline text-theme">
     Hello world!
   </h1>
 </body>
