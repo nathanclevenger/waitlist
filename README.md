@@ -1,8 +1,4 @@
 # waitlist
 Waitlist Template for GitHub Pages
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=aXOChLn5ZdQ
-" target="_blank"><img src="http://img.youtube.com/vi/aXOChLn5ZdQ/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-![](https://img.youtube.com/vi/aXOChLn5ZdQ/0.jpg)
+<img width="1362" alt="Screenshot 2022-11-25 at 9 26 45 AM" src="https://user-images.githubusercontent.com/4130910/204015880-e464acfa-8352-42b7-93ce-6317d87a452c.png">
